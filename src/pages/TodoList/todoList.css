@@ -1,0 +1,40 @@
+.list-page-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.list-action-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-container {
+  margin-top: 2rem;
+}
+
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 18px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 18px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 18px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+}
+
+.todo-action {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter {
+  width: auto !important;
+}
